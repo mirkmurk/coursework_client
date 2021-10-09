@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    max-width: 960px;
+    width: 100%;
+    background: red;
+    text-align: center;
+}
+
+.genres_container {
+    display: flex;
+    justify-content: space;
+    background: green;
+}
+
+.genre_box {
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    background: blue;
+}
+
+.genre_box.checked {
+    background: steelblue;
+}
