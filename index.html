@@ -10,16 +10,22 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>Drawing Prompt Generator</h1>
-        <div class="genres_container">
-        </div>
-        <div class="buttons_container">
-            <button class="button" id="generate">generate</button>
-            <button class="button" id="save">save</button>
-        </div>
-        <div class="result">
-            <h3></h3>
+    <div class="container_border">
+        <div class="container">
+            <h1>Drawing Prompt Generator</h1>
+            <div class="genres_container">
+                <p style="align-self: center; ">Connecting to server..</p>
+            </div>
+            <div class="buttons_container">
+                <button class="button-63" id="generate">generate</button>
+            </div>
+            <div class="result_row">
+                <h3 class="result">Your prompt goes here</h3>
+                <span class="copy"><img src="img/copy.svg" title="copy" /></span>
+                <span class="bookmark"><img src="img/bookmark.svg" title="bookmark" /></span>
+            </div>
+            <div class="results_saved">
+            </div>
         </div>
 
         <script src="index.js"></script>
