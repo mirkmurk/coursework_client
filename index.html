@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- MAIN (PROMPT GENERATION) PAGE -->
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- TITLE & STYLE FILE CONNECTION -->
+    <title>Drawing Prompt Generator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,21 +15,29 @@
     <div class="container_border">
         <div class="container">
             <h1>Drawing Prompt Generator</h1>
+            <!-- GENRE DISPLAY & SELECTION -->
             <div class="genres_container">
-                <p style="align-self: center; ">Connecting to server..</p>
+                <!-- PLACEHOLDER IN CASE OF NO DB CONNECTION -->
+                <p style="align-self: center; ">Connecting to server...</p>
             </div>
+            <!-- GENERATE & STATS PAGE REDIRECT BUTTONS -->
             <div class="buttons_container">
-                <button class="button-63" id="generate">generate</button>
+                <button class="genbutton" id="generate" title="Generate Prompt">Generate!</button>
+                <a href="stats.html" title="View Genre Statistics">
+                    <input type="button" class="statbutton" value="Genre Stats">
+                </a>
             </div>
-            <div class="result_row">
-                <h3 class="result">Your prompt goes here</h3>
-                <span class="copy"><img src="img/copy.svg" title="copy" /></span>
-                <span class="bookmark"><img src="img/bookmark.svg" title="bookmark" /></span>
+            <!-- GENERATED PROMPT DISPLAY & COPY/SAVE BUTTONS-->
+            <div class=" result_row">
+                <h3 class="result">Your prompt goes here...</h3>
+                <span class="copy"><img src="img/copy.svg" title="Copy" /></span>
+                <span class="bookmark"><img src="img/bookmark.svg" title="Bookmark" /></span>
             </div>
+            <!-- PROMPT STORAGE SECTION -->
             <div class="results_saved">
             </div>
         </div>
-
+        <!-- SCRIPT FILE CONNECTION -->
         <script src="index.js"></script>
 </body>
 
