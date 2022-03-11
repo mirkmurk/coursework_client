@@ -81,7 +81,6 @@ body {
     align-items: center;
     justify-content: center;
     height: 50px;
-    margin-bottom: 20px;
 }
 .result_saved_row > h3{
     font-size: 14px;
@@ -234,7 +233,7 @@ a {
 
 
 .sortButton {
-    margin: 21px 0;
+    margin: 21px 5px;
     text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
     align-items: center;
     background-image: linear-gradient(223deg, #d880d2 0%, #6b8ac9 100%);
@@ -245,12 +244,12 @@ a {
     color: #FFFFFF;
     display: flex;
     font-family: Phantomsans, sans-serif;
-    font-size: 20px;
+    font-size: 17px;
     justify-content: center;
-    line-height: 1em;
+    line-height: 0.5em;
     max-width: 100%;
-    min-width: 140px;
-    padding: 19px 24px;
+    min-width: 100px;
+    padding: 13px 15px;
     text-decoration: none;
     user-select: none;
     -webkit-user-select: none;
@@ -266,4 +265,10 @@ a {
 
 .sortButton:active {
     transform: scale(0.95); 
+}
+
+.sort_buttons_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
