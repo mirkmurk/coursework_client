@@ -231,3 +231,39 @@ img {
 a {
     text-decoration: none;
 }
+
+
+.sortButton {
+    margin: 21px 0;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+    align-items: center;
+    background-image: linear-gradient(223deg, #d880d2 0%, #6b8ac9 100%);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 19px 24px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.sortButton:active,
+.sortButton:hover {
+  outline: 0;
+}
+
+.sortButton:active {
+    transform: scale(0.95); 
+}
