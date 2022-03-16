@@ -119,6 +119,7 @@ buttonBookmark.addEventListener('click', () => {
     fillResultsSaved(results);
 });
 
+// SELECTION SORT BY DATE
 const sortByDate = () => {
     let arr = JSON.parse(localStorage.getItem('results'));
     let date = JSON.parse(localStorage.getItem('results_date'));
@@ -145,6 +146,7 @@ const sortByDate = () => {
     fillResultsSaved(arr)
 }
 
+// SELECTION SORT BY NAME
 const sortByName = () => {
     let arr = JSON.parse(localStorage.getItem('results'));
     if (!arr) return;
